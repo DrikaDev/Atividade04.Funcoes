@@ -1,16 +1,16 @@
 console.log("1 - crie uma função que exiba uma mensagem no console")
 
 function mensagemConsole(mensagem){
-    console.log(mensagem)
+    console.log("Função que exibe mensagem no console.")
 }
-mensagemConsole("Função que exibe mensagem no console.")
+mensagemConsole()
 
 //========================
 
 console.log ("2 - crie uma função que receba o seu nome como (parâmetro) e exiba no console")
 
-function receberNome (adriana){
-    console.log(adriana)
+function receberNome(nome){
+    console.log(`Olá, ${nome}!`)
 }
 receberNome ("Adriana")
 
